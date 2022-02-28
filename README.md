@@ -83,10 +83,11 @@ code block start:
     function(){ code block. }     
 end code block.
 ```
-code block start:   
+*****
+code block start:
     function(){ code block. }     
 end code block.
-
+*****
 * `<pre><code>{code}</code></pre>` 를 사용하여 코드블럭을 나타낼 수도 있다.
 ```
 <pre>
