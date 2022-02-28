@@ -77,18 +77,7 @@
         - 혼합하위목록
 
 ## 4. code
-* 4칸의 공백 또는 한번의 Tab키로 들여쓰기를 하면 변환되어 들여쓰지 않는 행까지 계속 된다.
-```
-code block start:   
-    function(){ code block. }     
-end code block.
-```
-*****
-code block start:    
-    function(){ code block. }        
-end code block.
-*****
-* `<pre><code>{code}</code></pre>` 를 사용하여 코드블럭을 나타낼 수도 있다.
+* `<pre><code>{code}</code></pre>` 를 사용하여 코드블럭을 나타낸다.
 ```
 <pre>
 <code>
