@@ -170,7 +170,9 @@ Link: [Google][googlelink]
 [googlelink]: https://google.com "Go google"
 ```
 *****
-Link: [Google][https://google.com]
+Link: [Google][googlelink]
+
+[googlelink]: https://google.com "Go google"
 *****
 + 외부링크
 ```
@@ -221,8 +223,8 @@ __double underscores__
 ## 9. 줄바꿈
 3칸 이상 띄어쓰기를 하면 줄이 바뀐다.
 ```
-줄 바꿈을 하기 위해서는 문장 마지막에서 3칸이상을 띄어쓰기해야 한다.    이렇게
+줄 바꿈을 하기 위해서는 문장 마지막에서 3칸이상을 띄어쓰기해야 한다.   \ 이렇게
 ```
-줄 바꿈을 하기 위해서는 문장 마지막에서 3칸이상을 띄어쓰기해야 한다.    이렇게
+줄 바꿈을 하기 위해서는 문장 마지막에서 3칸이상을 띄어쓰기해야 한다.   \ 이렇게
 
 출처:[공통] 마크다운 markdown 작성법 <https://gist.github.com/ihoneymon/652be052a0727ad59601>
