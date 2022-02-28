@@ -10,6 +10,7 @@
 ###### six-th header
 ```
 *****
+#### 적용예
 # first header
 ## second header
 ### third header
@@ -28,6 +29,7 @@
 >>>>>> six-th blockquote.
 ```
 *****
+#### 적용예
 > first blockquote.
 >> second blockquote.
 >>> third blockquote.
@@ -43,6 +45,7 @@
 3. third
 ```
 *****
+#### 적용예
 1. first
 2. second
 3. third
@@ -66,6 +69,7 @@
         - 혼합하위목록
 ```
 *****
+#### 적용예
 * 상위목록
     * 중위목록 
         * 하위목록
@@ -94,6 +98,7 @@ function(){
 </pre>
 ```
 *****
+#### 적용예
 <pre>
 <code>
 function(){
@@ -113,6 +118,7 @@ function(){
 </code>
 </pre>
 *****
+#### 적용예
 ```
 function(){
     code block.
@@ -132,6 +138,7 @@ public class Hello {
 </code>
 </pre>
 *****
+#### 적용예
 ```java
 public class Hello {
   public static void main(String[] args) {
@@ -163,13 +170,16 @@ public class Hello {
 * 참조링크
 ```
 [link keyword][id]
+
 [id]: URL "Optional Title here"
 
 // code
 Link: [Google][googlelink]   
+
 [googlelink]: https://google.com "Go google"
 ```
 *****
+#### 적용예
 Link: [Google][googlelink]
 
 [googlelink]: https://google.com "Go google"
@@ -180,6 +190,7 @@ Link: [Google][googlelink]
 적용예시: [Google](https://google.com, "google link")
 ```
 *****
+#### 적용예
 Link: [Google](https://google.com, "google link")
 *****
 - 자동연결    
@@ -189,6 +200,7 @@ Link: [Google](https://google.com, "google link")
 e-mail : <seaha0110@naver.com>
 ```
 *****
+#### 적용예
 외부링크 : <https://github.com/saehalee/sh>    
 e-mail : <seaha0110@naver.com>
 *****
@@ -202,6 +214,7 @@ __double underscores__
 ~~cancelline~~
 문장 중간에 사용할 경우 **띄어쓰기** 를 사용하는 것이 좋다.
 ```
+#### 적용예
 *single asterisks*    
 _single underscores_    
 **double asterisks**    
@@ -213,11 +226,13 @@ __double underscores__
 ```
 ![Alt text](/path/to/img.jpg)
 ```
+#### 적용예
 ![coding](https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80)
 위 방법은 사이즈 조절 기능이 없으므로  `<img width=”” height=””></img>` 를 이용한다.
 ```
 <img src="/path/to/img.jpg" width=450px height=300px alt="image"></img>
 ```
+#### 적용예
 <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80" width=450px height=300px alt="coding"></img>
 
 ## 9. 줄바꿈
@@ -226,7 +241,9 @@ __double underscores__
 줄 바꿈을 하기 위해서는 문장 마지막에서 3칸이상을 띄어쓰기해야 한다.    
 이렇게
 ```
+***
+#### 적용예
 줄 바꿈을 하기 위해서는 문장 마지막에서 3칸이상을 띄어쓰기해야 한다.    
 이렇게
-
+***
 출처:[공통] 마크다운 markdown 작성법 <https://gist.github.com/ihoneymon/652be052a0727ad59601>
