@@ -17,7 +17,6 @@
 #### four-th header
 ##### five-th header
 ###### six-th header
-*****
 
 ## 2. BlockQuote
 ```
@@ -36,7 +35,7 @@
 >>>> four-th blockquote.
 >>>>> five-th blockquote.
 >>>>>> six-th blockquote.
-*****
+
 ## 3. 목록
 ### 3-1. 순서있는 목록
 ```
@@ -85,7 +84,6 @@
 * 혼합상위목록
     + 혼합중위목록 
         - 혼합하위목록
-*****
 
 ## 4. code
 * `<pre><code>{code}</code></pre>` 를 사용하여 코드블럭을 나타낸다.
@@ -147,7 +145,6 @@ public class Hello {
   }
 }
 ```
-*****
 
 ## 5. 구분선/수평선
 페이지 나누기 용도로 많이 사용한다.
@@ -165,7 +162,6 @@ public class Hello {
 *****
 - - -
 ---------------------------------------------
-###### horizon
 
 ## 6. Link
 * 참조링크
@@ -204,7 +200,6 @@ e-mail : <seaha0110@naver.com>
 #### 적용예
 외부링크 : <https://github.com/saehalee/sh>    
 e-mail : <seaha0110@naver.com>
-*****
 
 ## 7. 강조
 ```
