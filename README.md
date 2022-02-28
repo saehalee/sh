@@ -144,19 +144,19 @@ public class Hello {
 ## 5. 구분선/수평선
 페이지 나누기 용도로 많이 사용한다.
 ```
-# Header
-* first
- + second
-  - third
--------------------------------------------------------
+* * *
+***
+*****
+- - -
+---------------------------------------------
 ###### horizon
 ```
+#### 적용예
+* * *
+***
 *****
-# Header
-* first
- + second
-  - third
--------------------------------------------------------
+- - -
+---------------------------------------------
 ###### horizon
 *****
 ## 6. Link
@@ -170,8 +170,7 @@ Link: [Google][googlelink]
 [googlelink]: https://google.com "Go google"
 ```
 *****
-Link: [Google][googlelink]    
-[googlelink]: https://google.com "Go google"
+Link: https://google.com 
 *****
 + 외부링크
 ```
@@ -181,15 +180,15 @@ Link: [Google][googlelink]
 *****
 Link: [Google](https://google.com, "google link")
 *****
-- 자동연결
+- 자동연결    
 일반적인 URL 또는 이메일주소인 경우 사용한다.
 ```
-* 외부링크 : <https://github.com/saehalee/sh>
-* e-mail : <seaha0110@naver.com>
+외부링크 : <https://github.com/saehalee/sh>
+e-mail : <seaha0110@naver.com>
 ```
 *****
-* 외부링크 : <https://github.com/saehalee/sh>    
-* e-mail : <seaha0110@naver.com>
+외부링크 : <https://github.com/saehalee/sh>    
+e-mail : <seaha0110@naver.com>
 *****
 
 ## 7. 강조
