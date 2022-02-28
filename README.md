@@ -229,6 +229,7 @@ __double underscores__
 ```
 #### 적용예
 ![coding](https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80)
+*****
 위 방법은 사이즈 조절 기능이 없으므로  `<img width=”” height=””></img>` 를 이용한다.
 ```
 <img src="/path/to/img.jpg" width=450px height=300px alt="image"></img>
@@ -239,8 +240,7 @@ __double underscores__
 ## 9. 줄바꿈
 3칸 이상 띄어쓰기를 하면 줄이 바뀐다.
 ```
-줄 바꿈을 하기 위해서는 문장 마지막에서 3칸이상을 띄어쓰기해야 한다.    
-이렇게
+줄 바꿈을 하기 위해서는 문장 마지막에서 3칸이상을 띄어쓰기해야 한다.    이렇게
 ```
 
 #### 적용예
