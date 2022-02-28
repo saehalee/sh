@@ -9,7 +9,7 @@
 ##### five-th header
 ###### six-th header
 ```
-*****
+
 #### 적용예
 # first header
 ## second header
@@ -28,7 +28,7 @@
 >>>>> five-th blockquote.
 >>>>>> six-th blockquote.
 ```
-*****
+
 #### 적용예
 > first blockquote.
 >> second blockquote.
@@ -44,7 +44,7 @@
 2. second
 3. third
 ```
-*****
+
 #### 적용예
 1. first
 2. second
@@ -68,7 +68,7 @@
     + 혼합중위목록 
         - 혼합하위목록
 ```
-*****
+
 #### 적용예
 * 상위목록
     * 중위목록 
@@ -86,6 +86,7 @@
     + 혼합중위목록 
         - 혼합하위목록
 *****
+
 ## 4. code
 * `<pre><code>{code}</code></pre>` 를 사용하여 코드블럭을 나타낸다.
 ```
@@ -97,7 +98,7 @@ function(){
 </code>
 </pre>
 ```
-*****
+
 #### 적용예
 <pre>
 <code>
@@ -117,7 +118,7 @@ function(){
 ```
 </code>
 </pre>
-*****
+
 #### 적용예
 ```
 function(){
@@ -137,7 +138,7 @@ public class Hello {
 ```
 </code>
 </pre>
-*****
+
 #### 적용예
 ```java
 public class Hello {
@@ -178,7 +179,7 @@ Link: [Google][googlelink]
 
 [googlelink]: https://google.com "Go google"
 ```
-*****
+
 #### 적용예
 Link: [Google][googlelink]
 
@@ -189,7 +190,7 @@ Link: [Google][googlelink]
 사용문법: [Title](Link)   
 적용예시: [Google](https://google.com, "google link")
 ```
-*****
+
 #### 적용예
 Link: [Google](https://google.com, "google link")
 *****
@@ -199,7 +200,7 @@ Link: [Google](https://google.com, "google link")
 외부링크 : <https://github.com/saehalee/sh>
 e-mail : <seaha0110@naver.com>
 ```
-*****
+
 #### 적용예
 외부링크 : <https://github.com/saehalee/sh>    
 e-mail : <seaha0110@naver.com>
@@ -241,7 +242,7 @@ __double underscores__
 줄 바꿈을 하기 위해서는 문장 마지막에서 3칸이상을 띄어쓰기해야 한다.    
 이렇게
 ```
-***
+
 #### 적용예
 줄 바꿈을 하기 위해서는 문장 마지막에서 3칸이상을 띄어쓰기해야 한다.    
 이렇게
