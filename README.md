@@ -46,7 +46,8 @@
         code block.
     }    
 
-* *<pre><code>{code}</code></pre>* 를 사용하여 코드블럭을 나타낼 수도 있다.
+* __<pre><code>{code}</code></pre>__ 를 사용하여 코드블럭을 나타낼 수도 있다.
+
 <pre>
 <code>
 function(){
@@ -54,13 +55,15 @@ function(){
 }
 </code>
 </pre>
-* <```>을 사용하여 코드블럭을 나타내기도 한다.
+
+* __```__ 을 사용하여 코드블럭을 나타내기도 한다.
 ```
 function(){
 	code block.
 }
 ```
-* ``` 시작점에 사용하는 언어를 선언하여 문법강조(Syntax highlighting)이 가능하다.
+* __```__ 시작점에 사용하는 언어를 선언하여 문법강조(Syntax highlighting)이 가능하다.
+
 ```java
 function(){
 	code block.
