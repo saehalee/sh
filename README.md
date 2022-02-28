@@ -85,10 +85,11 @@ code block start:
     }       
 end code block.
 ```
-code block start:   
-    function(){   
-        code block.   
-    }   
+
+code block start: 
+    function(){ 
+        code block. 
+    } 
 end code block.
 * `<pre><code>{code}</code></pre>` 를 사용하여 코드블럭을 나타낼 수도 있다.
 ```
@@ -110,11 +111,11 @@ function(){
 * __```__ 을 사용하여 코드블럭을 나타내기도 한다.
 <pre>
 <code>
-```
+    ```
     function(){
 	    code block.
     }
-```
+    ```
 </code>
 </pre>
 * __```__ 시작점에 사용하는 언어를 선언하여 문법강조(Syntax highlighting)이 가능하다.
@@ -157,17 +158,17 @@ public class Hello {
 ## 6. Link
 * 참조링크
 ```
-Link: [Google][googlelink]
+Link: [Google][googlelink]   
 [googlelink]: https://google.com "Go google"
 ```
-Link: [Google][googlelink]
+Link: [Google][googlelink]    
 [googlelink]: https://google.com "Go google"
 + 외부링크
 ```
-사용문법: [Title](Link)
+사용문법: [Title](Link)   
 적용예시: [Google](https://google.com, "google link")
 ```
-사용문법: [Title](Link)
+사용문법: [Title](Link)    
 적용예시: [Google](https://google.com, "google link")
 - 자동연결
 일반적인 URL 또는 이메일주소인 경우 사용한다.
@@ -175,7 +176,7 @@ Link: [Google][googlelink]
 * 외부링크 : <https://github.com/saehalee/sh>
 * e-mail : <seaha0110@naver.com>
 ```
-* 외부링크 : <https://github.com/saehalee/sh>
+* 외부링크 : <https://github.com/saehalee/sh>    
 * e-mail : <seaha0110@naver.com>
 ## 7. 강조
 문장 중간에 사용할 경우에는 띄어쓰기를 사용하는 것이 좋다.
@@ -187,11 +188,11 @@ __double underscores__
 ~~cancelline~~
 문장 중간에 사용할 경우 **띄어쓰기** 를 사용하는 것이 좋다.
 ```
-*single asterisks*
-_single underscores_
-**double asterisks**
-__double underscores__
-~~cancelline~~
+*single asterisks*    
+_single underscores_    
+**double asterisks**    
+__double underscores__    
+~~cancelline~~    
 문장 중간에 사용할 경우 **띄어쓰기** 를 사용하는 것이 좋다.
 
 ## 8. 이미지
