@@ -1,6 +1,14 @@
 # Read.me 사용법
 
 ## 1. Header
+```
+# first header
+## second header
+### third header
+#### four-th header
+##### five-th header
+###### six-th header
+```
 # first header
 ## second header
 ### third header
@@ -9,6 +17,14 @@
 ###### six-th header
 
 ## 2. BlockQuote
+```
+> first blockquote.
+>> second blockquote.
+>>> third blockquote.
+>>>> four-th blockquote.
+>>>>> five-th blockquote.
+>>>>>> six-th blockquote.
+```
 > first blockquote.
 >> second blockquote.
 >>> third blockquote.
@@ -18,11 +34,13 @@
 
 ## 3. 목록
 ### 3-1. 순서있는 목록
+```
 1. first
 2. second
 3. third
-
+```
 ### 3-2. 글머리 기호 목록
+```
 * 상위목록
     * 중위목록 
         * 하위목록
@@ -38,16 +56,24 @@
 * 혼합상위목록
     + 혼합중위목록 
         - 혼합하위목록
+```
 
 ## 4. code
 * 4칸의 공백 또는 한번의 Tab키로 들여쓰기를 하면 변환되어 들여쓰지 않는 행까지 계속 된다.
-
+```
+code block :
     function(){
         code block.
     }    
-
-* __<pre><code>{code}</code></pre>__ 를 사용하여 코드블럭을 나타낼 수도 있다.
-
+end code block.
+```
+code block :
+    function(){
+        code block.
+    } 
+end code block.
+* `<pre><code>{code}</code></pre>` 를 사용하여 코드블럭을 나타낼 수도 있다.
+```
 <pre>
 <code>
 function(){
@@ -55,12 +81,19 @@ function(){
 }
 </code>
 </pre>
-
+```
+<pre>
+<code>
+function(){
+	code block.	
+}
+</code>
+</pre>
 * __```__ 을 사용하여 코드블럭을 나타내기도 한다.
 ```
-function(){
-	code block.
-}
+    function(){
+	    code block.
+    }
 ```
 * __```__ 시작점에 사용하는 언어를 선언하여 문법강조(Syntax highlighting)이 가능하다.
 
