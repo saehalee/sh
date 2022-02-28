@@ -80,17 +80,13 @@
 * 4칸의 공백 또는 한번의 Tab키로 들여쓰기를 하면 변환되어 들여쓰지 않는 행까지 계속 된다.
 ```
 code block start:   
-    function(){   
-        code block.   
-    }       
+    function(){ code block. }     
 end code block.
 ```
-
-code block start:    
-    function(){     
-        code block. 
-    }     
+code block start:   
+    function(){ code block. }     
 end code block.
+
 * `<pre><code>{code}</code></pre>` 를 사용하여 코드블럭을 나타낼 수도 있다.
 ```
 <pre>
@@ -111,13 +107,18 @@ function(){
 * __```__ 을 사용하여 코드블럭을 나타내기도 한다.
 <pre>
 <code>
-    ```
-    function(){
-	    code block.
-    }
-    ```
+```
+function(){
+    code block.
+}
+```
 </code>
 </pre>
+```
+function(){
+    code block.
+}
+```
 * __```__ 시작점에 사용하는 언어를 선언하여 문법강조(Syntax highlighting)이 가능하다.
 <pre>
 <code>
