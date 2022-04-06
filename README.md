@@ -173,22 +173,22 @@ public class Hello {
 // code
 Link: [Google][googlelink]   
 
-[googlelink]: https://google.com "Go google"
+[googlelink] : https://google.com "Go google"
 ```
 
 #### 적용예
-Link: [Google][googlelink]
+Link : [Google][googlelink]
 
 [googlelink]: https://google.com "Go google"
 *****
 + 외부링크
-```
-사용문법: [Title](Link)   
-적용예시: [Google](https://google.com, "google link")
+사용문법: [Title](Link) 
+```   
+Link : [Google](https://google.com, "google link")
 ```
 
 #### 적용예
-Link: [Google](https://google.com, "google link")
+Link : [Google](https://google.com, "google link")
 *****
 - 자동연결    
 일반적인 URL 또는 이메일주소인 경우 사용한다.
