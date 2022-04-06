@@ -227,7 +227,7 @@ __double underscores__
 *****
 위 방법은 사이즈 조절 기능이 없으므로  `<img width=”” height=””></img>` 를 이용한다.
 ```
-<img src="/path/to/img.jpg" width=450px height=300px alt="image"></img>
+<img src="/path/to/img.jpg" width=450px height=300px alt="image"/>
 ```
 #### 적용예
 <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80" width=450px height=300px alt="coding"></img>
